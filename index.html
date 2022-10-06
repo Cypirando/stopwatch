@@ -1,0 +1,43 @@
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Cronômetro</title>
+</head>
+
+<body id="onload" onload="onload()">
+
+    <div class="box">
+        <div class="clock" id="relogio">00:00.00</div>
+        <button id="iniciar" onclick="iniciar()"> Iniciar </button>
+
+        <button id="parar" onclick="para()"> Parar </button>
+
+        <button id="volt" onclick="vol()"> Volta </button>
+
+        <button id="reiniciar" onclick="reiniciar()">Reiniciar</button>
+
+    </div>
+    <div class="assunto">
+        <div class="ass">Nª:&nbsp;</div>
+        <div class="ass">Tempo geral</div>
+        <div class="ass">Tempo de voltas</div>
+    </div>
+   
+    <div class="lista">
+        <div class="resultado" id="volta"></div>
+        <div class="result" id="tempoVolta"></div>
+    </div>
+   
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
